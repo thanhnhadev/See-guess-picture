@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    >
+    <ImageView
+        android:id="@+id/ivHang"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:padding="1dp"
+        />
+    <TextView
+        android:id="@+id/tvHang"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="3"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        />
+
+
+</RelativeLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="1dp">
+
+
+        <ImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="top|center"
+            app:srcCompat="@drawable/avatar" />
+
+        <ImageView
+            android:id="@+id/ivAvatarKhung"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/listfriendavatarholder" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="1dp"
+        android:text="Yến yến"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:padding="1dp"
+        android:textAppearance="@style/TextAppearance.FontPath"
+        android:text="982"
+        android:layout_marginTop="10dp"
+        android:textColor="#ffff00"
+        android:shadowColor="#993600"
+        android:shadowRadius="3"
+        android:textSize="18sp" />
+
+</LinearLayout>
